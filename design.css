@@ -1,0 +1,30 @@
+.titlefont{
+  font-family: 'Alex Brush', cursive;
+  text-align: center;
+}
+
+.title2{
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+}
+body{
+  text-align: center;
+}
+.descripfont{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-align: right;
+}
+
+.tabcontent{
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family:
+}
+
+.tablink{
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
