@@ -1,15 +1,46 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<!-- for the website, naturALL-->
+
 <html>
   <head>
-    <title>NaturALL</title>
-    <link rel="stylesheet" href="style.css">
-    <meta charset= "utf-8">
-    <script src="index.js">
-    </script>
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Domine|Josefin+Sans|Montserrat|Playfair+Display:900i" rel="stylesheet">
+    <title>naturALL</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="design.css">
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
   </head>
 
   <body>
-   <h1>My Natural Hair is...</h1>
+    <!-- website title with a little slogan type thing -->
+    <div>
+      <span class="cursivefont"><h1>natur</span><span class="boldfont">ALL</h1></span>
+      <span class="fancyfont">PSA: Hair comprised of kinks and curls are indeed <b>PROFESSIONAL</b>.</span>
+    </div>
+    <!-- tabs on the webpage -->
 
-  </body>
+    <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+    <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">Hair Types & Products</button>
+    <button class="tablink" onclick="openPage('Contact', this, 'blue')">Hair Inspos</button>
+    <button class="tablink" onclick="openPage('About', this, 'orange')">My Natural Hair is...</button>
+
+    <div id="Home" class="tabcontent">
+      <p></p>
+      <!--also add slide image on homepage -->
+      <img src="https://www.doc.gold.ac.uk/~solad001/solo/wp-content/uploads/2018/01/hairstyles_so_caro.jpg" alt="pic"/>
+    </div>
+
+    <div id="Hair Types & Products" class="tabcontent">
+      <p></p>
+    </div>
+
+    <div id="Hair Inspos" class="tabcontent">
+      <p></p>
+    </div>
+
+    <div id="My Natural Hair is..." class="tabcontent">
+      <p></p>
+    </div>
+
+    </body>
+</html>
