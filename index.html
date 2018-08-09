@@ -9,38 +9,76 @@
     <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="index.js" type="text/javascript"></script>
   </head>
 
   <body>
     <!-- website title with a little slogan type thing -->
-    <div>
+    <div class="hero-image">
+      <div class="hero-text">
       <span class="cursivefont"><h1>natur</span><span class="boldfont">ALL</h1></span>
       <span class="fancyfont">PSA: Hair comprised of kinks and curls are indeed <b>PROFESSIONAL</b>.</span>
+      <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+      <button class="tablink" onclick="openPage('Hair Types', this, 'green')" id="defaultOpen">Hair Types & Products</button>
+      <button class="tablink" onclick="openPage('Hair Inspos', this, 'blue')">Hair Inspos</button>
+      <button class="tablink" onclick="openPage('My Natural Hair is...', this, 'orange')">My Natural Hair is...</button>
+      </div>
     </div>
     <!-- tabs on the webpage -->
 
-    <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
-    <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">Hair Types & Products</button>
-    <button class="tablink" onclick="openPage('Contact', this, 'blue')">Hair Inspos</button>
-    <button class="tablink" onclick="openPage('About', this, 'orange')">My Natural Hair is...</button>
-
     <div id="Home" class="tabcontent">
-      <p></p>
+
+      <div id="greeting"><h2><mark>Who are we?</mark></h2></div>
+
+      <div class="row">
+
+        <div class="column">
+          <div class="card">A S H L E Y</div>
+            <p> UBIQUITOUS <em>KINKS</em>.</p>
+            <p> I <b style="font-size:22px";>appreciate</b> it. </p>
+        </div>
+
+        <div class="column">
+          <div class="card">P R E C I O U S</div>
+            <p> UBIQUITOUS <em>KINKS</em>.</P>
+            <p>I'm <b style="font-size:22px";>aware</b> of it.</p>
+        </div>
+
+        <div class="column">
+          <div class="card">C H R I S T I N E</div>
+            <p> UBIQUITOUS <em>KINKS</em>.</p>
+            <p>I <b style="font-size:22px";>love</b> it.</p>
+        </div>
+
+        <div class="column">
+          <div class="card">L A ' N A S Y A</div>
+            <p> UBIQUITOUS <em>KINKS</em>.</p>
+            <p>I <b style="font-size:22px";>embrace</b> it. I was born with the naps, curls, and kinks. I embraced my hair and I know the world will too. </p>
+        </div>
+
+      </div>
+
+  </div>
+
+
+
       <!--also add slide image on homepage -->
-      <img src="https://www.doc.gold.ac.uk/~solad001/solo/wp-content/uploads/2018/01/hairstyles_so_caro.jpg" alt="pic"/>
-    </div>
 
-    <div id="Hair Types & Products" class="tabcontent">
+
+
+    <div id="Types" class="tabcontent">
       <p></p>
     </div>
 
-    <div id="Hair Inspos" class="tabcontent">
+    <div id="Inspos" class="tabcontent">
       <p></p>
     </div>
 
-    <div id="My Natural Hair is..." class="tabcontent">
+    <div id="My" class="tabcontent">
       <p></p>
     </div>
+
 
     </body>
 </html>
