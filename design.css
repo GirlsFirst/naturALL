@@ -11,8 +11,15 @@
   font-size: 70px;
 }
 
+.boldfont2{
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+  font-size: 35px;
+}
+
 body{
   text-align: center;
+  background-color: grey;
 }
 .fancyfont{
   font-family: 'Alegreya Sans SC', sans-serif;
@@ -46,10 +53,6 @@ body, html {
   width: 25%;
 }
 
-#Home {background-color: white;}
-#Types {background-color: #ff8533;}
-#Inspos {background-color: white;}
-#My {background-color: #ff8533;}
 
 .hero-image{
   background-image: url("https://www.doc.gold.ac.uk/~solad001/solo/wp-content/uploads/2018/01/hairstyles_so_caro.jpg");
@@ -107,6 +110,7 @@ mark {
   clear: both;
 }
 
+
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
@@ -120,6 +124,11 @@ mark {
   .column {
     width: 100%;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
 }
