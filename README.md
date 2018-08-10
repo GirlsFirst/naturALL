@@ -13,3 +13,4 @@ text-align: center;
 <div class="footer">
   <p>Girls Who Innovate &copy; 2018</p>
 </div>
+https://i0.wp.com/www.joiwade.com/wp-content/uploads/2017/09/FullSizeRender.jpg.jpeg?fit=1152%2C1152&ssl=1
