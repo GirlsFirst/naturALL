@@ -86,9 +86,6 @@ body, html {
 
 mark {
   background-color: #ff8533;
-  padding-left: 25px;
-  padding-right: 25px;
-  text-align: center;
 }
 
 * {
